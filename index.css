@@ -79,3 +79,26 @@ body {
 .read-more-btn:hover {
     background-color: var(--primary-hover);
 }
+
+.dark-theme{
+    --bg-page: #1e1e24;
+    --bg-card: #2a2a35;
+    --text-color: #e0e0e0;
+    --heading-color: #ffffff;
+    
+}
+
+#theme-toggle-btn{
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    background-color: var(--heading-color);
+    color: var(--bg-page);
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    
+}
